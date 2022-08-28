@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height:100%;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content:space-around; 
+    padding: 15px;
+}
+#ad{
+    background-color: rgba(220, 251, 212, 0.672);
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#logo{
+    position:absolute;
+    left:10px;
+    vertical-align: text-bottom;
+}
+#logo a{
+    margin-left: 30px;
+}
+#sign > #button{
+    padding:8px 20px;
+    background-color: rgb(116, 116, 237);
+    border: none;
+    color: white;
+    border-radius: 7px;
+}
+#sign{
+    display:flex;
+    position: absolute;
+    right: 20px;
+    align-items: center;
+}
+#sign #dots{
+    margin-right: 30px;
+}
+input{
+    height:40px;
+    width:500px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(247, 238, 238) ;
+}
+#content{
+    height:100%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: auto;
+    grid-template-areas:  "menu content";
+}
+#menu{
+    grid-area: menu;
+    /* background-color: rgb(237, 240, 239); */
+    margin-right: 100px;
+    visibility:hidden;
+    margin-left: 43px;
+}
+.menu-item{
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+}
+.menu-item>a{
+    margin-left: 20px;
+}
+.menu-item>img{
+    height: 20px;
+    width: 20px;
+}
+.menu-item>hr{
+    opacity:0.5;
+}
+#news{
+    grid-area: content;
+    margin-right: 300px;
+    
+}
+#btn>button{
+    background-color: white;
+    border:sloid grey;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+#heading{
+display:flex;
+}
+div>h1{
+    margin: 10px 0 0 20px;
+}
+#btn{
+    position: relative;
+    top: 15px;
+    left: 250px;
+}
+#cate{
+    display:flex;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left:10px ;
+}
+#cate>a{
+    color: grey;
+    padding: 10px 15px;
+}
+hr{
+    opacity: 0.5;
+}
+td>img{
+    border-radius: 7px;
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+}
+article{
+    display: flex;
+}
+.article{
+    border: solid grey 1px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}

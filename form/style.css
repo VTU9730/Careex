@@ -1,0 +1,27 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#feedback{
+    border-bottom: solid 2px black;
+    margin: 10px;
+    width:50%;
+}
+#container1{
+width:50%;
+border: solid 3px black;
+margin: 30px;
+}
+#main{
+    width:60%;
+    display:flex;
+    border: solid 4px black;
+    background-color: aqua;
+}
+button{
+    margin-left: 70px;
+    background-color: aqua;
+    border: solid 1px black;
+    border-radius: 10px;
+}

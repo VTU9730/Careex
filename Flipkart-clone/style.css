@@ -1,0 +1,83 @@
+/* ------------------------------- navrbar -------------------------------------- */
+.h-25{
+    background-color: blue;
+}
+.logo{
+    width:100px;
+    margin-left: 200px;
+}
+#login-button{
+    border: none;
+    padding: 3px 25px;
+    color: blue;
+    margin-right: 20px; 
+    background-color: white;
+    font-weight: 700;
+   
+}
+.nav-text{
+    color: white;
+    margin-right: 20px;
+    font-weight: 700;
+}
+.input-search{
+    width:400px;
+    border: none;
+    border-radius: 0;
+    font-size: 13px;
+    font-weight: 450;
+}
+.d-flex{
+    margin-right: 10px;
+}
+#navbar{
+    height:60px;
+}
+#login-hover{
+    display: none;
+    background-color:aqua;
+    height:300px;
+    width:200px;
+    position: absolute;
+    left: 700px;
+    z-index: 1;
+    border:solid 1px red;
+    justify-content: center;
+    
+}
+#triangle-up{
+    height:13px;
+    width:13px;
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent;
+    border-bottom: 13px solid rgb(255, 255, 255);
+    position: relative;
+    top: -12px;
+
+}
+/* ----------------------Cards------------------------------- */
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width:100px;
+    height:auto;
+    border: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+/* ---------------------Carousel---------------------------- */
+.carousel-button{
+    background-color:grey;
+    padding: 60px 20px;
+}
+.carousel{
+    /* margin: 10px 5px; */
+    border: solid rgb(218, 216, 216) 7px ;
+    height:300px;
+    
+}
+.carousel-img{
+     height:285px
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="shortcut icon" href="images/fav.jpg" type="image/x-icon">
+    <!-- FA -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- CSS-Boot -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JS-Boot -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!-- Icon-Boot -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="style.css">
+</head>    
+    <nav id="navbar" class="nav navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo" src="images/flipkart.png" alt="flipkart"></a>
+          <form class="d-flex">
+            <input class="input-search form-control me-2" type="search" placeholder="Search for products,brands and more" aria-label="Search">
+          </form>
+          <span id="popover" class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Disabled button" data-bs-placement="bottom">
+            <button id="login-button" type="button">Login</button>
+          </span>
+           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-text" aria-current="page" href="#"> Become a Seller</a>
+              </li>  
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#"><i class="icons bi bi-bell"></i> Notification Preferences</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="icons bi bi-question-square"></i> 24X7 Customer Care</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="icons bi bi-arrow-up-right"></i> Advertise</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"><i class="icons bi bi-download"></i> Download App</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-text" href="#"><i class="bi bi-cart-check-fill"></i> Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div id="login-hover">
+      <div id="triangle-up">
+hello
+      </div>
+    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="images/offer.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Offer</b></p>
+            </div>
+        </div>
+        <div class="card"  >
+            <img src="images/grocery.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Grocery</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/mobiles.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Mobiles</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/fashion.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Fashion</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/electronis.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Electronis</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/home.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Home</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/appliances.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Appliances</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/travel.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Travel</b></p>
+            </div>
+        </div>
+        <div class="card" >
+            <img src="images/beauty.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Beauty</b></p>
+            </div>
+        </div>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img1.webp" class="d-block w-100 carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img2.webp" class="d-block w-100 carousel-img" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/img3.webp" class="d-block w-100 carousel-img" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon carousel-button" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon carousel-button" aria-hidden="true"></span>
+          <span class="visually-hidden ">Next</span>
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

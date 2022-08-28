@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main{
+    background-color: rgb(204, 204, 231);
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin:200px;   
+}
+#area{
+    max-width: 198px;
+    height:80px;
+    border: solid 0.1px rgb(11, 8, 8);
+    border-bottom: none;
+    background-color:white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#bottom{
+    max-width: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: azure;
+}
+.button{
+    text-align: center;
+    padding: 10px;
+    border: solid 0.1px rgba(245, 141, 141, 0.712);
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(242, 221, 221);
+}

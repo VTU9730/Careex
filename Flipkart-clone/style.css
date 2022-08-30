@@ -34,16 +34,16 @@
     height:60px;
 }
 #login-hover{
-    display: none;
-    background-color:aqua;
-    height:300px;
-    width:200px;
+    visibility: hidden;
+    background-color:white;
+    height:auto;
+    width:250px;
     position: absolute;
     left: 700px;
     z-index: 1;
-    border:solid 1px red;
     justify-content: center;
-    
+    padding-bottom: 15px;
+    border: solid gray 1px;
 }
 #triangle-up{
     height:13px;
@@ -53,7 +53,36 @@
     border-bottom: 13px solid rgb(255, 255, 255);
     position: relative;
     top: -12px;
+    left:70px;
 
+}
+#new-customer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding:0;
+}
+.login-items{
+    margin: 0;
+    padding:0;
+}
+.login-items>p,b{
+    padding: 0 15px;
+    margin: 0;
+}
+#customer{
+    color:black;
+
+}
+#sign-up{
+    color:blue;
+    border:none;
+    background-color: white;
+    padding:0 15px;
+    margin-top: -10px;
+}
+.fa-icon{
+    color:blue;
 }
 /* ----------------------Cards------------------------------- */
 .card-container{

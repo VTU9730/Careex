@@ -27,7 +27,7 @@
             <input class="input-search form-control me-2" type="search" placeholder="Search for products,brands and more" aria-label="Search">
           </form>
           <span id="popover" class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-trigger="hover" data-bs-content="Disabled button" data-bs-placement="bottom">
-            <button id="login-button" type="button">Login</button>
+            <button id="login-button" type="button" data-bs-toggle="modal" data-bs-target="#login-modal">Login</button>
           </span>
            
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,8 +58,82 @@
         </div>
     </nav>
     <div id="login-hover">
-      <div id="triangle-up">
-hello
+      <div id="triangle-up"></div>
+      <div class="login-items" id="new-customer">
+        <b><p id="customer">New Customer?</p></b>
+        <button id="sign-up" data-bs-toggle="modal" data-bs-target="#register-modal">Sign Up</button>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-image-portrait fa-icon"></i> My Profile</p>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-square-plus fa-icon"></i> Flipkart Plus Zone</p>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-arrow-up-short-wide fa-icon"></i> Orders</p>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-heart fa-icon"></i></i> Wishlist</p>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-medal fa-icon"></i> Rewards</p>
+      </div>
+      <hr>
+      <div class="login-items">
+        <p><i class="fa-solid fa-gift fa-icon"></i> Gift Cards</p>
+      </div>
+    </div>
+    <!-- Register modal -->
+    <div class="modal fade" id="register-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Registere</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form id="register-form" action="registration.html" onsubmit="registerData()">
+            <div class="modal-body">
+              <p>Username</p>
+              <input type="text" autocomplete="on" value="">
+              <p>Password</p>
+              <input type="password" autocomplete="on" value="">
+              <p>Confirm password</p>
+              <input type="password" autocomplete="on" value="">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">Register</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- login modal -->
+    <div class="modal fade" id="login-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Please enter </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        <form action="login.html" method="post">
+          <div class="modal-body">
+            <p>Username</p>
+            <input type="text">
+            <p>Password</p>
+            <input type="password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </div>
+        </form>
+        </div>
       </div>
     </div>
     <div class="card-container">
